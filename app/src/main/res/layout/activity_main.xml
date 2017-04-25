@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/soccer"
+    tools:context="lecture.mobile.minsky.multipageapp.MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100px"
+            android:layout_y="100px"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:onClick="myListener"
+            android:text="Introduction" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100px"
+            android:layout_y="150px"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:onClick="myListener1"
+            android:text="Settings" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100px"
+            android:layout_y="200px"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:onClick="myListener2"
+            android:text="Start" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="10px"
+            android:layout_y="300px"
+            android:text="______________________"/>
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100px"
+            android:layout_y="350px"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:onClick="handleImplicit"
+            android:text="전화걸기" />
+
+        <Button
+            android:id="@+id/mapButton"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100px"
+            android:layout_y="400px"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:onClick="handleImplicit"
+            android:text="지도보기" />
+
+    </AbsoluteLayout>
+
+</FrameLayout>
